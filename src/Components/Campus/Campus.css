@@ -1,0 +1,42 @@
+.Campuss{
+    margin: 80px auto;
+    text-align: center;
+    width: 90%;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img{
+    width: 23%;
+    border-radius: 40px;
+}
+
+ .btn12{
+    background:blue;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .btn12 img{
+    margin-left: 15px;
+ }
+
+ @media(max-width:800px)
+ {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+ }

@@ -1,0 +1,83 @@
+.Contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact-col{
+    flex-basis: 50%;
+    padding: 15px;
+
+    color:#676767;
+}
+.contact-col h3{
+    color: #000F38;
+    font-size: 30px;
+    font-weight: 500;
+}
+.contact-col img{
+    width: 35px;
+    margin-left: 10px;
+    
+}
+.contact-col p{
+    max-width: 550px;
+    line-height: 1.3;
+
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col ul li img{
+    margin-right: 10px;
+}
+.contact form{
+    margin-top: 10px;
+}
+
+.Contact form input, .contact form textarea{
+display: block;
+width: 100%;
+padding: 15px;
+border: 0;
+outline: 0;
+}
+
+.txt{
+    width: 100%;
+    text-align: center;
+    
+}
+.Btnn, .DarkBtn{
+    
+        background:blue;
+        color: #212121;
+        padding: 14px 25px;
+        font-size: 16px;
+        border-radius: 30px;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40%;
+        margin-top: 10px;
+    }
+.contact-col span{
+    display: block;
+margin: 20px 0;
+}
+@media(max-width:700px)
+{
+    .Contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}
